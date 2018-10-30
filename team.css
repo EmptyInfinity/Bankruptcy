@@ -74,7 +74,9 @@ body {
 .logo {
   width: 120px;
 }
-
+img{
+  user-select: none;
+}
 ul {
   font: 300 22px 'Montserrat', sans-serif;
   float: right;
