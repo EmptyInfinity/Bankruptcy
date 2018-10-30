@@ -15,10 +15,10 @@ $(document).ready(function() {
       dots: false
   });
   $('.NextBtn').click(function() {
-    owl.trigger('next.owl.carousel', [550]);
+    owl.trigger('prev.owl.carousel', [550]);
   })
   $('.PrevBtn').click(function() {
-      owl.trigger('prev.owl.carousel', [550]);
+      owl.trigger('next.owl.carousel', [550]);
   })
 });
 
