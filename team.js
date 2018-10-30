@@ -11,7 +11,7 @@ $(document).ready(function() {
       items:1,
       loop:true,
       nav: false,
-      smartSpeed: 2000,
+      smartSpeed: 900,
       dots: false
   });
   $('.NextBtn').click(function() {
