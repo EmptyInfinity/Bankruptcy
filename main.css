@@ -52,18 +52,42 @@ body{
 }
 .news .owl-carousel{
   cursor: pointer;
-  background: rgb(254,194,34, 0.8);
+  background: #645baf;
 }
 .news .owl-carousel div p {
   padding: 5px 10px;
   font: 300 18px 'Montserrat', sans-serif;
 }
-
+.menu_wrap.h-fixed ul li a,
+.menu_wrap.h-fixed #menu_toggle,
+.menu_wrap.h-fixed ul li i,
+.menu_wrap.h-fixed ul li span{
+  color: #000;
+  transition: all .2s ease;
+}
+.h-fixed{
+  margin-bottom: 150px;
+  top: 0;
+  position: fixed !important;
+  animation: pos .2s ease;
+  background: #f4f4f4 !important;
+  transition: all .2s ease;
+}
+@keyframes pos {
+  from{
+    top: 54px;
+  }
+  to{
+    top: 0px;
+  }
+}
 .menu_wrap{
   position: relative;
   background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 90px;
+  z-index: 10;
+  transition: all 1s ease;
 }
 .menu{
   padding: 15px 0;
@@ -83,7 +107,8 @@ ul{
   justify-content: flex-end;
 }
 ul li {
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   list-style: none;
 }
 ul li a {
@@ -98,6 +123,10 @@ ul li a {
   text-decoration: none;
   transition: 0.5s;
   overflow: hidden;
+  border: 1px solid #645baf;
+}
+.li-border {
+  border: 1px solid #645baf;
 }
 ul li a:hover {
   transition: all .3s;
@@ -194,7 +223,8 @@ img{
   margin: 10px auto 10px auto;
 }
 .sl-active{
-  background: rgb(254,194,34, 0.8);
+  background: #645baf;
+  /* background: rgb(254, 194, 34, 0.8); */
   transition: .3s;
 }
 .sl-active i{
@@ -228,7 +258,7 @@ img{
   margin: auto;
   width: 80%;
   max-width: 1240px;
-  border: 1px solid #fec222;
+  border: 1px solid #645baf;
   background: rgba(204, 204, 204, 0.8);
 }
 .ad_info p{

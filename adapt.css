@@ -20,6 +20,10 @@
   ul li i{
     font-size: 16px;
   }
+  ul li {
+    margin: 5px;
+    padding: 4px;
+  }
   .news .owl-carousel div p {
     font-size: 16px;
   }
@@ -92,9 +96,14 @@
   ul li a{
     max-width: 200px;
     margin: auto;
+    border: none;
   }
   #menu_toggle{
     display: block;
+  }
+
+  .li-border {
+    border: none;
   }
 }
 @media screen and (max-width:890px) {
@@ -136,7 +145,7 @@
     margin-top: 70px;
   }
   .owl-item.center>div>.slide {
-    background: #fec222;
+    background: #645baf;
     margin-top: 50px;
   }
 }

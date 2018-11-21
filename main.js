@@ -122,3 +122,11 @@ menu_toggle.onclick = function () {
     }
   }
   
+let header = document.getElementById('header');
+window.onscroll = () => {
+  header.classList.add('h-fixed');
+  if (window.pageYOffset == 0) {
+    header.classList.remove('h-fixed');
+  }
+}
+
