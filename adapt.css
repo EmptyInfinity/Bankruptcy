@@ -124,6 +124,9 @@
   .ad_info_wrap.mobile .ad_info{
     width: 100%;
   }
+  .ad_info_wrap.mobile .ad_info p{
+    padding: 10px;
+  }
   .ad_info_wrap.desktop{
     display: none;
   }

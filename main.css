@@ -11,11 +11,14 @@ body{
 #menu_toggle{
   display: none;
   font: 300 25px 'Montserrat', sans-serif;
-  border-bottom: 1px solid #fec222;
+  border-bottom: 1px solid #645baf;
   color: #fff;
   cursor: pointer;
   max-width: 100px;
   margin: -10px auto 10px auto;
+}
+.align-center{
+  text-align: center;
 }
 .marg{
   margin-top: 200px;
@@ -90,7 +93,7 @@ body{
   transition: all 1s ease;
 }
 .menu{
-  padding: 15px 0;
+  padding-top: 15px;
   width: 85vw;
   margin: auto;
   max-width: 1240px;
@@ -131,7 +134,7 @@ ul li a {
 ul li a:hover {
   transition: all .3s;
   color: #000;
-  background: #fec222;
+  background: #645baf;
 }
 ul li i{
   color: #fff;
@@ -243,6 +246,12 @@ img{
   font-weight: 500;
   margin: 55px 0 10px 0;
 }
+.add-hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(100, 91, 175, 0), rgba(100, 91, 175, 0.75), rgba(100, 91, 175, 0));
+  margin: 10px auto 8px auto;
+}
 .sl-active .sl{
   width: 80%;
   opacity: 1;
@@ -259,9 +268,9 @@ img{
   width: 80%;
   max-width: 1240px;
   border: 1px solid #645baf;
-  background: rgba(204, 204, 204, 0.8);
+  background: #f4f4f4;
 }
-.ad_info p{
+.ad_info div{
   padding: 10px;
   box-sizing: border-box;
   font: 300 16px 'Montserrat', sans-serif;
