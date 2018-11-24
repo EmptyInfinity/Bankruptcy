@@ -97,6 +97,7 @@
     max-width: 200px;
     margin: auto;
     border: none;
+    box-shadow: none;
   }
   #menu_toggle{
     display: block;
@@ -104,6 +105,7 @@
 
   .li-border {
     border: none;
+    box-shadow: none;
   }
 }
 @media screen and (max-width:890px) {
@@ -148,7 +150,7 @@
     margin-top: 70px;
   }
   .owl-item.center>div>.slide {
-    background: #61456A;
+    background: #805b8c;
     margin-top: 50px;
   }
 }
