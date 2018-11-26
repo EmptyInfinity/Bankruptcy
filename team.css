@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@font-face {
+  font-family: 'Matilda';
+  src: url('../fonts/11349.ttf');
+}
 
-/*
-font-family: 'Montserrat', sans-serif;
-*/
+@font-face {
+  font-family: 'Light';
+  src: url('../fonts/11964.otf');
+}
 .marg {
   margin-top: 200px;
   transition: all .5s linear;
@@ -18,14 +21,14 @@ font-family: 'Montserrat', sans-serif;
 body {
   width: 100vw;
   height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Matilda', sans-serif;
   min-width: 320px;
   position: relative;
 }
 
 #menu_toggle {
   display: none;
-  font: 300 25px 'Montserrat', sans-serif;
+  font: 300 25px 'Matilda', sans-serif;
   border-bottom: 1px solid #805b8c;
   color: #fff;
   cursor: pointer;
@@ -78,7 +81,7 @@ img{
   user-select: none;
 }
 ul {
-  font: 300 22px 'Montserrat', sans-serif;
+  font: 300 22px 'Matilda', sans-serif;
   float: right;
   display: flex;
   list-style: none;
@@ -101,6 +104,7 @@ ul li a {
   padding: 5px 10px;
   text-decoration: none;
   overflow: hidden;
+  font-size: 25px;
 }
 
 ul li a:hover {
@@ -118,7 +122,7 @@ ul li i {
 }
 
 ul li span {
-  font: 300 19px 'Montserrat', sans-serif;
+  font: 300 25px 'Matilda', sans-serif;
   color: #fff;
 }
 
@@ -149,7 +153,7 @@ ul li i:hover {
 }
 .owl-carousel .owl-item p {
   text-align: center;
-  font: 300 19px 'Montserrat',
+  font: 300 25px 'Matilda',
     sans-serif;
   /* background: rgba(0, 0, 0, 0.6); */
   color: #fff;
@@ -234,7 +238,7 @@ ul li i:hover {
   }
 
   .owl-carousel .owl-item p {
-    font: 300 16px 'Montserrat',
+    font: 300 22px 'Matilda',
       sans-serif;
     }
 
@@ -300,7 +304,7 @@ ul li i:hover {
   .gallery {
     width: 70vw;
     left: 15vw;
-    top: 200px;
+    top: 220px;
   }
 
 }

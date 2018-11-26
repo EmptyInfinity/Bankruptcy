@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@font-face {
+  font-family: 'Matilda';
+  src: url('../fonts/11349.ttf');
+}
 
-/*
-font-family: 'Montserrat', sans-serif;
-*/
+@font-face {
+  font-family: 'Light';
+  src: url('../fonts/11964.otf');
+}
 .marg {
   margin-top: 200px;
   transition: all .5s linear;
@@ -24,7 +27,7 @@ font-family: 'Montserrat', sans-serif;
 body {
   min-width: 100vw;
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Light', sans-serif;
   min-width: 320px;
   position: relative;
 }
@@ -32,7 +35,7 @@ body {
 #menu_toggle {
   user-select: none;
   display: none;
-  font: 300 25px 'Montserrat', sans-serif;
+  font: 300 25px 'Matilda', sans-serif;
   border-bottom: 1px solid #805b8c;
   color: #fff;
   cursor: pointer;
@@ -81,7 +84,7 @@ body {
 }
 
 ul {
-  font: 300 22px 'Montserrat', sans-serif;
+  font: 300 22px 'Matilda', sans-serif;
   float: right;
   display: flex;
   list-style: none;
@@ -107,6 +110,8 @@ ul li a {
   text-decoration: none;
   transition: 0.5s;
   overflow: hidden;
+  font: 300 22px 'Matilda',
+  sans-serif;
 }
 
 ul li a:hover {
@@ -125,7 +130,7 @@ ul li i {
 }
 
 ul li span {
-  font: 300 19px 'Montserrat', sans-serif;
+  font: 300 23px 'Matilda', sans-serif;
   color: #fff;
   text-shadow: 1px 1px 5px #fff;
 }
@@ -139,7 +144,7 @@ ul li i:hover {
   color: #805b8c;
   width: 80%;
   left: 10%;
-  font: 300 35px 'Montserrat', sans-serif;
+  font: 300 35px 'Matilda', sans-serif;
   /* margin: 40px 0; */
 }
 
@@ -193,12 +198,12 @@ ul li i:hover {
   box-shadow: 0 2px 10px rgba(100, 100, 100, 0.3);
 }
 .map-h3{
-  font: 500 15px 'Montserrat',
+  font: 500 15px 'Light',
   sans-serif;
   margin-bottom: 5px;
 }
 .map-p {
-  font: 400 13px 'Montserrat',
+  font: 400 13px 'Light',
     sans-serif;
     margin: 0;
 }
@@ -222,12 +227,12 @@ img{
 .w-50 {
   width: 50%;
   padding-right: 10px;
-  font: 400 15px 'Montserrat',
+  font: 400 15px 'Light',
     sans-serif;
 }
 
 .map_desc h1 {
-  font: 500 23px 'Montserrat',
+  font: 500 23px 'Light',
     sans-serif;
   margin-bottom: 5px;
 }
@@ -284,7 +289,7 @@ img{
   }
 
   ul li span {
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .menu {
