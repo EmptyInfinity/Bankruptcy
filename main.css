@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Matilda';
-  src: url('../fonts/11349.ttf');
+  src: url('fonts/11349.ttf');
 }
 
 @font-face {
   font-family: 'Light';
-  src: url('../fonts/11964.otf');
+  src: url('fonts/11964.otf');
 }
 
 body {
