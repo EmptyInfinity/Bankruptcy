@@ -338,7 +338,7 @@ img {
   padding: 10px;
   box-sizing: border-box;
   font: 300 16px 'Light', sans-serif;
-  text-decoration: underline;
+  line-height: 23px;
 }
 
 .map-wrap {
