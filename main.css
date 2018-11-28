@@ -332,14 +332,24 @@ img {
   max-width: 1240px;
   border: 1px solid #805b8c;
   background: #f4f4f4;
-}
-
-.ad_info div {
   padding: 10px;
+}
+.p-circle{
+  border-radius: 50%;
+  border: 1px solid #805b8c;
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 3px 4px;
+  font-size: 14px !important;
+}
+.ad_info div {
   box-sizing: border-box;
   font: 300 16px 'Light', sans-serif;
-  line-height: 23px;
+  /* line-height: 23px; */
 }
+
 
 .map-wrap {
   position: relative;

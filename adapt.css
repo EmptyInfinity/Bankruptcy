@@ -162,6 +162,13 @@
     margin-bottom: 10px;
   }
 
+  .ad_info {
+    padding: 0;
+  }
+  .mob-p{
+    padding: 10px;
+  }
+
   .ad_info_wrap.mobile {
     display: block;
     word-break: break-word;
@@ -174,7 +181,7 @@
   .ad_info_wrap.mobile .ad_info p {
     padding: 10px;
     font: 300 16px 'Light',
-    sans-serif;
+      sans-serif;
   }
 
   .ad_info_wrap.desktop {
