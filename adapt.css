@@ -154,6 +154,11 @@
     height: auto;
   }
 
+  .p-circle {
+    width: 20px;
+    height: 20px;
+  }
+
   .sl {
     width: 80%;
     opacity: 1;
@@ -165,7 +170,8 @@
   .ad_info {
     padding: 0;
   }
-  .mob-p{
+
+  .mob-p {
     padding: 10px;
   }
 
