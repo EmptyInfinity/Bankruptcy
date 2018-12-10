@@ -16,7 +16,6 @@ if ($(window).width() > 680) {
     slides[i].onclick = function () {
       if ($(window).width() > 890) {
         let addInfoOffset = $('#addInfo').offset().top-180;
-        console.log(addInfoOffset);
         $('body,html').animate({
           scrollTop: addInfoOffset
         }, 500);

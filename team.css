@@ -29,7 +29,7 @@ body {
 #menu_toggle {
   display: none;
   font: 300 25px 'Matilda', sans-serif;
-  border-bottom: 1px solid #805b8c;
+  border-bottom: 1px solid #665CAC;
   color: #fff;
   cursor: pointer;
   max-width: 100px;
@@ -110,7 +110,7 @@ ul li a {
 ul li a:hover {
   transition: all .3s;
   color: #000;
-  background: #805b8c;
+  background: #665CAC;
 }
 
 ul li i {

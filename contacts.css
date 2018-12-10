@@ -36,7 +36,7 @@ body {
   user-select: none;
   display: none;
   font: 300 25px 'Matilda', sans-serif;
-  border-bottom: 1px solid #805b8c;
+  border-bottom: 1px solid #665CAC;
   color: #fff;
   cursor: pointer;
   max-width: 100px;
@@ -117,7 +117,7 @@ ul li a {
 ul li a:hover {
   transition: all .3s;
   color: #000;
-  background: #805b8c;
+  background: #665CAC;
 }
 
 ul li i {
@@ -141,7 +141,7 @@ ul li i:hover {
 
 .icons {
   margin: auto;
-  color: #805b8c;
+  color: #665CAC;
   width: 80%;
   left: 10%;
   font: 300 35px 'Matilda', sans-serif;
@@ -164,13 +164,13 @@ ul li i:hover {
 }
 
 .social{
-  color: #805b8c;
+  color: #665CAC;
 }
 
 .icons i:hover {
   color: #000;
   transform: scale(1.1);
-  background: #805b8c;
+  background: #665CAC;
 }
 
 .fa-facebook-f {
