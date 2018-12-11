@@ -294,10 +294,14 @@ img {
   font-size: 29px;
 }
 
+.sl-active .slide-descr {
+  color: #fff;
+}
 .sl-active .slide_p {
   margin-top: 45px;
   font-size: 47px;
   transition: .3s;
+  color: #fff;
 }
 
 .slide_p {
@@ -316,7 +320,7 @@ img {
 .sl-active .sl {
   width: 80%;
   opacity: 1;
-  background-color: #2f2e2c;
+  background-color: #fff;
   transition: .3s;
 }
 

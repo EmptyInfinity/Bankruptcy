@@ -131,7 +131,13 @@
     display: none;
     opacity: 0;
   }
-
+  .owl-item.center .slide_p,
+  .owl-item.center .slide-descr{
+    color: #fff;
+  }
+  .owl-item.center .sl{
+    background-color: #fff;
+  }
   ul li a {
     max-width: 200px;
     margin: auto;
