@@ -89,7 +89,6 @@ ul li a {
 .menu_wrap.h-fixed #menu_toggle,
 .menu_wrap.h-fixed ul li i,
 .menu_wrap.h-fixed ul li span {
-  color: #000;
   transition: all .2s ease;
 }
 
