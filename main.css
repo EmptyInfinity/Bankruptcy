@@ -98,7 +98,7 @@ ul li a {
   top: 0;
   position: fixed !important;
   animation: pos .2s ease;
-  background: #f4f4f4 !important;
+  /* background: #f4f4f4 !important; */
   transition: all .2s ease;
 }
 
@@ -343,7 +343,7 @@ img {
 
 .p-circle {
   border-radius: 50%;
-  border: 1px solid #665CAC;
+  border: 1px solid #cdcccd;
   width: 23px;
   height: 23px;
   display: inline-block;
