@@ -73,9 +73,11 @@ body {
 .logo {
   width: 120px;
 }
-img{
+
+img {
   user-select: none;
 }
+
 ul {
   font: 300 22px 'Matilda', sans-serif;
   float: right;
@@ -147,6 +149,7 @@ ul li i:hover {
   border-radius: 0 0 3px 3px;
   box-shadow: 0px 0px 15px rgba(100, 100, 100, 0.7);
 }
+
 .owl-carousel .owl-item p {
   text-align: center;
   font: 300 25px 'Matilda',
@@ -226,6 +229,16 @@ ul li i:hover {
   .PrevBtn {
     top: 55%;
   }
+
+  .owl-carousel .owl-item div {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width:1110px) {
+  ul li a {
+    font-size: 26px;
+  }
 }
 
 @media screen and (max-width:980px) {
@@ -236,7 +249,7 @@ ul li i:hover {
   .owl-carousel .owl-item p {
     font: 300 22px 'Matilda',
       sans-serif;
-    }
+  }
 
   .NextBtn,
   .PrevBtn {
@@ -281,6 +294,7 @@ ul li i:hover {
     display: none;
     opacity: 0;
   }
+
   .owl-carousel .owl-item div,
   .owl-carousel .owl-item img {
     max-width: 400px;
