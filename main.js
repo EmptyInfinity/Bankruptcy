@@ -1,3 +1,7 @@
+window.onload = () =>{
+  $('.preloader').fadeOut("slow",()=>{})
+}
+
 if ($(window).width() > 680) {
   let blocks = [
     '<strong class="black">Услуги:</strong><br><div class="p-circle">1.</div>Решение споров, связанных с заключением, изменением, расторжением хозяйственных договоров. <br> <div class = "p-circle"> 2. </div>  Решение споров о применении мер ответственности (взыскание неустойки, процентов, пени) и возмещении убытков и материального ущерба.<br><div class="p-circle">3.</div> Взыскание долгов. <br> <div class = "p-circle"> 4. </div>  Решение споров о правах на недвижимое имущество. <br><div class="p-circle">5.</div> Решение споров о признании договоров недействительными и применение последствий недействительности договоров. <br> <div class = "p-circle"> 6. </div>  Решение споров, связанных с уступкой прав требований и переводом долга.<br><div class="p-circle">7.</div > Решение других споров, возникших между субъектами предпринимательской деятельности.',
@@ -24,7 +28,6 @@ if ($(window).width() > 680) {
           slides[i].classList.remove('sl-active');
         }
         ad_info_txt.innerHTML = blocks[i];
-        console.log(ad_info_txt);
         slides[i].classList.add('sl-active');
       }
     }
